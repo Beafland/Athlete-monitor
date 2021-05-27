@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Athlete_Sys.athlete_Calendar_Frag" >
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/view2"
+        android:layout_toEndOf="@id/textView16"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/view3"
+        android:layout_marginBottom="25dp"
+        android:layout_toEndOf="@id/textView17"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@id/textView18"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_above="@id/textView17"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="@string/monday"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@id/textView18"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/wednesday"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/friday"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+rootProject.name='Athlete_Monitor_system'
+include ':app'

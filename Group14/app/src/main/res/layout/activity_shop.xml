@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bkcolor">
+
+
+
+    <Button
+        android:id="@+id/shopping"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/add_product"
+        android:textColor="@color/btnText"
+        android:background="@color/btnColor"
+        android:elevation="20dp"
+        android:text="shopping"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/add_product"
+        android:layout_width="220dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/btnText"
+        android:background="@color/btnColor"
+        android:elevation="20dp"
+        android:text="ADD product"
+        android:textStyle="bold"
+        android:textSize="25sp"  />
+
+
+
+</RelativeLayout>

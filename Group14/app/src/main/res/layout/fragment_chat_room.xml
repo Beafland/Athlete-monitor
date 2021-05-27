@@ -1,0 +1,51 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bkcolor">
+
+    <Button
+        android:id="@+id/room1"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:layout_above="@+id/room2"
+        android:background="@color/btnColor"
+        android:textColor="@color/btnText"
+        android:text="@string/chat_room_1" />
+
+    <Button
+        android:id="@+id/room2"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_above="@id/room3"
+        android:background="@color/btnColor"
+        android:textColor="@color/btnText"
+        android:text="@string/chat_room_2" />
+
+    <Button
+        android:id="@+id/room3"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:background="@color/btnColor"
+        android:textColor="@color/btnText"
+        android:text="@string/chat_room_3" />
+
+    <Button
+        android:id="@+id/room4"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/room3"
+        android:background="@color/btnColor"
+        android:textColor="@color/btnText"
+        android:text="@string/chat_room_4" />
+
+
+</RelativeLayout>

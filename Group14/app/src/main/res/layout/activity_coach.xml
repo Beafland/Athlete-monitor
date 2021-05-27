@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bkcolor">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/talk"
+        android:text="@string/coach"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/talk"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:layout_above="@+id/leaderboard"
+        android:background="@color/btnColor"
+        android:textColor="@color/btnText"
+        android:text="@string/talk_to_the_athlete" />
+
+    <Button
+        android:id="@+id/leaderboard"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/btnColor"
+        android:textColor="@color/btnText"
+        android:text="@string/update_leaderboard"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/train"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/leaderboard"
+        android:background="@color/btnColor"
+        android:textColor="@color/btnText"
+        android:text="@string/release_training_plan" />
+
+    <Button
+        android:id="@+id/healthData"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:text="Athlete health data"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/train"
+        android:background="@color/btnColor"
+        android:textColor="@color/btnText"/>
+
+</RelativeLayout>

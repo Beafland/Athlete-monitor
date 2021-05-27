@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_athlete_Calender"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/title_calender"/>
+
+    <item
+        android:id="@+id/nav_athlete_Reminder"
+        android:icon="@drawable/ic_reminder"
+        android:title="@string/reminder"/>
+
+    <item
+        android:id="@+id/nav_athlete_leaderboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/title_leaderboard"/>
+
+    <item
+        android:id="@+id/nav_athlete_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/title_chat"/>
+
+    <item
+        android:id="@+id/nav_athlete_health"
+        android:icon="@drawable/ic_health"
+        android:title="@string/title_health"/>
+
+</menu>
